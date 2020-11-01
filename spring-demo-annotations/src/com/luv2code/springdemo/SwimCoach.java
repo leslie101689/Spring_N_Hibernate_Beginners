@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 public class SwimCoach implements Coach {
 
 	@Autowired
-	@Qualifier("happyFortuneService")
 	private FortuneService fortuneService;
 	
 	@Value("${foo.email}")
@@ -18,8 +17,8 @@ public class SwimCoach implements Coach {
 	@Value("${foo.team}")
 	private String team;
 	
-	public SwimCoach() {
-		
+	public SwimCoach(FortuneService theFortuneService) {
+		fortuneService = theFortuneService;
 	}
 	
 	@Override
