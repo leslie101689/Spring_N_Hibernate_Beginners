@@ -1,0 +1,39 @@
+Text Fields
+1. Create Student class
+2. Create Student controller class
+3. Create HTML form
+4. Create form processing code
+5. Create confirmation page
+
+Drop-down list
+1. Update HTML form
+2. Update Student class - add getter/setter for new property
+3. Update Confirmation page
+
+Radio button
+1. Update HTML form
+2. Update Student class - add getter/setter for new property
+3. Update confirmation page
+
+Checking for required fields
+1. Add validation rule to customer class
+2. Display error message on HTML form
+3. Perform validation in controller class
+4. Update confirmation page
+5. add support for @InitBinder and StringTrimmerEditor
+
+Validating a Number Range and regular expression
+1. Add validation rule to customer class
+2. Display error message on HTML form
+3. Perform validation in controller class
+4. Update confirmation page
+5. Refactor int to Integer validation
+
+Adding validation rule to entity and Form (CourseCode)
+1. Create custom validation rule
+- create new package .validation
+- create new annotation CourseCode
+- create new class CourseCodeConstraintValidator
+2. Add validation rule to customer class
+3. Display error messages on HTML form
+4. Update confimation page
