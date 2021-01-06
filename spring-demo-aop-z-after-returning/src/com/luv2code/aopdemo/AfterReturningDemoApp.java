@@ -20,7 +20,7 @@ public class AfterReturningDemoApp {
 				context.getBean("accountDAO", AccountDAO.class);
 		
 		// call method to find the accounts
-		List<Account> theAccounts = theAccountDAO.findAccounts();
+		List<Account> theAccounts = theAccountDAO.findAccounts(false);
 		
 		// display the accounts
 		System.out.println("\n\nMain Program: AfterReturningDemoApp");
